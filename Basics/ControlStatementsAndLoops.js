@@ -37,3 +37,6 @@ if(0)
 var age=20;
 var eligible = age>18?console.log("yes") : console.log("no"); 
 eligible;
+
+//switchStatement
+
