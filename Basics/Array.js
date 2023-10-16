@@ -44,5 +44,16 @@ console.log(newMonth);
 const updatMonth = months.splice(2,1,'March');
 console.log(months);
 
+//Map and reduce method
+const array1 = [1,4,9,16,25];
+let newArr = array1.map((curElem)=>curElem*2).filter((curElem)=> curElem>10);
+console.log(newArr);
 
+
+let arr = [5,6,2];
+ let sum = arr.reduce((accumlator,curElem,index,arr)=>{
+
+    return accumlator+=curElem;
+ });
+ console.log(sum);
 
