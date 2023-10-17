@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <script src = "Date.js"></script>
+    <button id="btn">Click me</button>
+    <script>
+    let elem = document.querySelector('#btn');
+    elem = document.addEventListener('click',btnHandler)
+     function btnHandler(event)
+     {
+        console.log("Start");
+        console.log(event);
+         debugger;
+         console.log("end");
+     }
+   </script>
+
 </body>
 </html>
