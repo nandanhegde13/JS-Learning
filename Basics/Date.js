@@ -13,3 +13,4 @@ console.log(currTime.getTime());
 console.log(currTime.getHours());
 console.log(currTime.getMinutes());
 console.log(currTime.getSeconds());
+

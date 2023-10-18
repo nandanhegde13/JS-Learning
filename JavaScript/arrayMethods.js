@@ -1,0 +1,15 @@
+var arr1 = ["Nandan","Vikram","Kohli"];
+console.log(arr1.length);
+console.log(arr1.toString());
+console.log(arr1.pop());
+console.log(arr1.push("Dhoni"));
+console.log(arr1.shift());
+console.log(arr1.unshift("Rohith"));
+console.log(arr1.join("*"));
+console.log(delete arr1[1]);
+console.log(arr1.concat(new Array("Car","dog","green")));
+console.log(arr1.flat());
+console.log(arr1.splice());
+console.log(arr1.slice());
+var arr2  = [[1,2],[3,4],[5,6]];
+console.log(arr2.flat());
