@@ -1,7 +1,7 @@
 var friend1 = "arjun";
 var friend2 = "Visal";
 var friend3 = "Ramesh";
-
+var name = "Nandan"
 var myFriends = [friend1,friend2,friend3];
 console.log(myFriends[1]);
 
