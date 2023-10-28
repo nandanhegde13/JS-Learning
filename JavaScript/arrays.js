@@ -14,6 +14,8 @@ arr1.forEach((element) => {console.log(element+"1")});
 var res = arr1.push("Alto");
 console.log(res);
 console.log(res);
+console.log(res);
+
 
 const points = [40];
 console.log(Array.isArray(arr1));
